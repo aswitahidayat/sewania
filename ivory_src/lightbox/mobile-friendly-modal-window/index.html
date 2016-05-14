@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="robots" content="all,index,follow" />
+
+		<title>Create Mobile Optimized Modal Window</title>
+		<meta name="description" content="Code a basic responsive popup window without using a plugin, that works great on desktop and mobile." />
+
+		<style>
+		  	@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+			*, *:before, *:after { margin: 0; padding: 0; box-sizing: border-box; }
+			body { background: #2F2556; color: #B9B5C7; font: 14px 'Open Sans', sans-serif; }
+
+			/* You can safely remove the next two lines */
+			.top { padding-right: 20px; background: #261F41; text-align: right; }
+			a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }
+			
+			h1 { padding: 60px 0; font-weight: 400; text-align: center; }
+			p { margin: 0 0 20px; line-height: 1.5; }
+			
+			.main { margin: 0 auto; padding: 40px 20px; max-width: 960px; font-size: 19px; line-height: 30px;}
+			.main a { color: #DB7580; text-transform: none; }
+			
+			/* Styling the Popup Window */
+			.popup-trigger { display: block; margin: 0 auto; padding: 20px; max-width: 260px; background: #4EBD79; color: #fff;
+    						 font-size: 18px; font-weight: 700; text-align: center; text-transform: uppercase; line-height: 24px; cursor: pointer; }
+		  	.popup {display: none; position: absolute; top: 100px; left: 50%; width: 700px; margin-left: -350px; padding: 50px 30px;
+  					background: #fff; color: #333; font-size: 19px; line-height: 30px; border: 10px solid #150E2D; z-index: 9999;}
+  			.popup-mobile {position: relative; top: 0; left: 0; margin: 30px 0 0; width: 100%;}		
+  		    .popup-btn-close {position: absolute; top: 8px; right: 14px; color: #4EBD79; font-size: 14px; font-weight: bold; text-transform: uppercase; cursor: pointer;}	
+  		</style>
+			
+	</head>
+
+	<body>
+	
+		<div class="top">
+			<a href="http://stanhub.com/create-responsive-popup-modal-window-jquery-no-plugin/">Back to the article (free download)</a>
+		</div>
+
+		<h1><a href="http://stanhub.com/create-responsive-popup-modal-window-jquery-no-plugin/">Simple Responsive Popup Window</a></h1>
+	
+		<a class="popup-trigger">Open Pop Up</a>
+		
+		<div class="main">
+		  This is an example of a minimal mobile-friendly modal window. It is developed without using a plugin and with just a few lines of jQuery. Resize your browser to test how it behaves on mobile. <br><br> The functionality is very basic, so you would probably have to built upon it regarding your project needs. Feel free to use this script in any personal or commercial projects. To <a href="http://stanhub.com/create-responsive-popup-modal-window-jquery-no-plugin/">download this demo</a>, please go to the main article on Stanhub.
+		</div>
+		
+		<div class="popup">
+		  Madrid is a city in Europe and the capital and largest city of Spain. The population of the city is almost 3.2 million and that of the Madrid metropolitan area, around 6.3 million. <br><br>It is the third-largest city in the European Union, after London and Berlin, and its metropolitan area is the third-largest in the European Union after Paris and London. The city spans a total of 604.3 km2 (233.3 sq mi).
+		  <span class="popup-btn-close">close</span>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<script>
+		// Popup Window
+		var scrollTop = '';
+		var newHeight = '100';
+
+		$(window).bind('scroll', function() {
+		   scrollTop = $( window ).scrollTop();
+		   newHeight = scrollTop + 100;
+		});
+		
+		$('.popup-trigger').click(function(e) {
+  		 e.stopPropagation();
+		 if(jQuery(window).width() < 767) {
+		   $(this).after( $( ".popup" ) );
+		   $('.popup').show().addClass('popup-mobile').css('top', 0);
+		   $('html, body').animate({
+				scrollTop: $('.popup').offset().top
+			}, 500);   
+		 } else {
+		   $('.popup').removeClass('popup-mobile').css('top', newHeight).toggle();
+		 };
+		});
+		
+		$('html').click(function() {
+		 $('.popup').hide();
+		});
+
+		$('.popup-btn-close').click(function(e){
+		  $('.popup').hide();
+		});
+
+		$('.popup').click(function(e){
+		  e.stopPropagation();
+		});
+		</script>
+	</body>
+</html>
