@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt|Makanan|about|assets|menu%20order%20makanan|menu%20order%20minuman|galeri_thumb|headline|slides|captcha|Admin|download)
+RewriteRule ^(.*)$ /putiintan/index.php/$1 [L]
