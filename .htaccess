@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(akdjlsjadkjsa221998990\.php|images|robots\.txt|ivory_src|bower_components|dist|captcha|upload|assets)
+RewriteRule ^(.*)$ /sewania/akdjlsjadkjsa221998990.php/$1 [L]
