@@ -36,8 +36,8 @@ return $date.$chr;
 
 function UploadImage($nm,$fupload_name , $idx , $w , $h , $wbesar , $hbesar , $bools){
   //direktori gambar
-  $vdir_upload = "ivory_src/upload/product/";
-  $vth_upload = "ivory_src/upload/product/thumb/";
+  $vdir_upload = "assets/img/upload/product/";
+  $vth_upload = "assets/img/upload/product/thumb/";
   $vfile_upload = $vdir_upload.$fupload_name;
   
   $imageType = $_FILES[$nm.$idx]["type"];

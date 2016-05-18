@@ -17,11 +17,11 @@
             <div class="ads-image">
               <h1 class="pricetag"> $25</h1>
               <ul class="bxslider">
-                <li><img src="<?php echo base_url('ivory_src/assets/images/item/tp-big/Image00014.jpg'); ?>" alt="img" /></li>
-                <li><img src="<?php echo base_url('ivory_src/assets/images/item/tp-big/Image00015.jpg'); ?>" alt="img" /></li>
-                <li><img src="<?php echo base_url('ivory_src/assets/images/item/tp-big/Image00013.jpg'); ?>" alt="img" /></li>
+                <li><img src="<?php echo base_url('assets/img/item/tp-big/Image00014.jpg'); ?>" alt="img" /></li>
+                <li><img src="<?php echo base_url('assets/img/item/tp-big/Image00015.jpg'); ?>" alt="img" /></li>
+                <li><img src="<?php echo base_url('assets/img/item/tp-big/Image00013.jpg'); ?>" alt="img" /></li>
               </ul>
-              <div id="bx-pager"> <a class="thumb-item-link" data-slide-index="0" href=""><img src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00014.jpg'); ?>" alt="img" /></a> <a class="thumb-item-link"  data-slide-index="1" href=""><img src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00015.jpg'); ?>" alt="img" /></a> <a class="thumb-item-link"  data-slide-index="2" href=""><img src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00013.jpg'); ?>" alt="img" /></a> </div>
+              <div id="bx-pager"> <a class="thumb-item-link" data-slide-index="0" href=""><img src="<?php echo base_url('assets/img/item/tp/Image00014.jpg'); ?>" alt="img" /></a> <a class="thumb-item-link"  data-slide-index="1" href=""><img src="<?php echo base_url('assets/img/item/tp/Image00015.jpg'); ?>" alt="img" /></a> <a class="thumb-item-link"  data-slide-index="2" href=""><img src="<?php echo base_url('assets/img/item/tp/Image00013.jpg'); ?>" alt="img" /></a> </div>
             </div>
             <!--ads-image-->
             

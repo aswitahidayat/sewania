@@ -4,7 +4,7 @@
 				</div>
                 
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="<?php echo base_url('front/ads_detail'); ?>"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00015.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="<?php echo base_url('front/ads_detail'); ?>"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/tp/Image00015.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -27,7 +27,7 @@ Brand New Samsung Phones </a> </h5>
 				</div>
                 
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00008.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/tp/Image00008.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -49,7 +49,7 @@ Sony Xperia  dual sim 100% brand new  </a> </h5>
  					 <a href="#"> Urgent</a>
 				</div>
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00014.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/tp/Image00014.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -66,7 +66,7 @@ Sony Xperia  dual sim 100% brand new  </a> </h5>
               <!--/.item-list-->
               <div class="item-list">
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00003.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/tp/Image00003.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -83,7 +83,7 @@ Sony Xperia  dual sim 100% brand new  </a> </h5>
               <!--/.item-list-->
               <div class="item-list">
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/tp/Image00022.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/tp/Image00022.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -100,7 +100,7 @@ Sony Xperia  dual sim 100% brand new  </a> </h5>
               <!--/.item-list-->
               <div class="item-list">
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/FreeGreatPicture.com-46405-google-drops-price-of-nexus-4-smartphone.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/FreeGreatPicture.com-46405-google-drops-price-of-nexus-4-smartphone.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">
@@ -119,7 +119,7 @@ Sony Xperia  dual sim 100% brand new  </a> </h5>
               
               <div class="item-list">
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('ivory_src/assets/images/item/FreeGreatPicture.com-46404-google-drops-nexus-4-by-100-offers-15-day-price-protection-refund.jpg'); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <a href="ads-details.html"><img class="thumbnail no-margin" src="<?php echo base_url('assets/img/item/FreeGreatPicture.com-46404-google-drops-nexus-4-by-100-offers-15-day-price-protection-refund.jpg'); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">

@@ -17,7 +17,7 @@ $exx=explode('$$@',$row['foto']);
 				</div>
                 
                 <div class="col-sm-2 no-padding photobox">
-                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <!--<a href="<?php echo base_url('front/ads_detail/'.rawurlencode($row[1])); ?>">--> <a href="#" class="prodxx" id="img_prod_<?php echo $row[0]; ?>" ><img class="thumbnail no-margin"  src="<?php echo base_url('ivory_src/upload/product/'.$exx[0]); ?>" alt="img"></a> </div>
+                  <div class="add-image"> <span class="photo-count"><i class="fa fa-camera"></i> 2 </span> <!--<a href="<?php echo base_url('front/ads_detail/'.rawurlencode($row[1])); ?>">--> <a href="#" class="prodxx" id="img_prod_<?php echo $row[0]; ?>" ><img class="thumbnail no-margin"  src="<?php echo base_url('assets/img/upload/product/'.$exx[0]); ?>" alt="img"></a> </div>
                 </div>
                 <!--/.photobox-->
                 <div class="col-sm-7 add-desc-box">

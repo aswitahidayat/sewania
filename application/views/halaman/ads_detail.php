@@ -31,14 +31,14 @@ $ex=explode('$$@',$row['foto']);
             continue;
           }
 			  ?>
-                <li><img src="<?php echo base_url('ivory_src/upload/product/'.$ex[$a]); ?>" alt="img" /></li>
+                <li><img src="<?php echo base_url('assets/img/upload/product/'.$ex[$a]); ?>" alt="img" /></li>
                 <?php
 				$a++;
 				}
 				?>
                 <!--
-                <li><img src="<?php echo base_url('ivory_src/source/images/item/tp-big/Image00015.jpg'); ?>" alt="img" /></li>
-                <li><img src="<?php echo base_url('ivory_src/source/images/item/tp-big/Image00013.jpg'); ?>" alt="img" /></li>-->
+                <li><img src="<?php echo base_url('assets/img/item/tp-big/Image00015.jpg'); ?>" alt="img" /></li>
+                <li><img src="<?php echo base_url('assets/img/item/tp-big/Image00013.jpg'); ?>" alt="img" /></li>-->
               </ul>
               <div id="bx-pager"> 
               <?php
@@ -48,7 +48,7 @@ $ex=explode('$$@',$row['foto']);
             continue;
           }
 			  ?>
-              <a class="thumb-item-link" data-slide-index="<?php echo $a; ?>" href=""><img src="<?php echo base_url('ivory_src/upload/product/thumb/small_'.$ex[$a]); ?>" alt="img" /></a> 
+              <a class="thumb-item-link" data-slide-index="<?php echo $a; ?>" href=""><img src="<?php echo base_url('assets/img/upload/product/thumb/small_'.$ex[$a]); ?>" alt="img" /></a> 
               <?php
 			  $a++;
 			  }
@@ -217,7 +217,7 @@ $ex=explode('$$@',$row['foto']);
         <h4 class="modal-title"><i class=" icon-mail-2"></i> Contact advertiser </h4>
       </div>
       <div class="modal-body" >
-      <span style="display:none;" id="sp_loading_koment"><img src="<?php echo base_url('ivory_src/images/loading.gif'); ?>" /> &nbsp; &nbsp;Inserting data ... Please Wait .. <p></p></span>
+      <span style="display:none;" id="sp_loading_koment"><img src="<?php echo base_url('assets/img/loading.gif'); ?>" /> &nbsp; &nbsp;Inserting data ... Please Wait .. <p></p></span>
         <form role="form">
           <div class="form-group">
             <label for="recipient-name" class="control-label">Name:</label>

@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 page-content">
-          <div class="inner-box category-content">
+          <div class="inner-box">
             <h2 class="title-2 uppercase"><strong> <i class="icon-docs"></i> Post a Free Classified Ad</strong> </h2>
             <div class="row">
               <div class="col-sm-12">
@@ -107,7 +107,7 @@
                       <label class="col-md-3 control-label" >Nama Jalan</label>
                       <div class="col-md-8">
                        <input id="pac-input" class="form-control" type="text" placeholder="Search Box" style="float:left;"> &nbsp; 
-                       <img src="<?php echo base_url('ivory_src/images/loc.png'); ?>" style="width:24px; height:24px; margin-top:10px;" id="btn_current_loc" /> <br clear="all" />
+                       <img src="<?php echo base_url('assets/img/loc.png'); ?>" style="width:24px; height:24px; margin-top:10px;" id="btn_current_loc" /> <br clear="all" />
                        <p></p>
                        </div>
                     </div>

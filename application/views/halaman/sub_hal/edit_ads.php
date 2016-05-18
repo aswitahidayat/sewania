@@ -68,7 +68,7 @@ $ex_ft = explode('$$@' , $pt['foto']);
                       <label class="col-md-3 control-label" >Lokasi</label>
                       <div class="col-md-8">
                       
-                       <input id="pac-input" class="form-control" type="text" placeholder="Search Box" style="float:left;"> &nbsp; <img src="<?php echo base_url('ivory_src/images/loc.png'); ?>" style="width:24px; height:24px; margin-top:10px;" id="btn_current_loc" /> <br clear="all" />
+                       <input id="pac-input" class="form-control" type="text" placeholder="Search Box" style="float:left;"> &nbsp; <img src="<?php echo base_url('assets/img/loc.png'); ?>" style="width:24px; height:24px; margin-top:10px;" id="btn_current_loc" /> <br clear="all" />
                        <p></p>
                        </div>
                        <div class="col-md-10" style="float:right;">

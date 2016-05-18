@@ -210,7 +210,7 @@ mysql_query("Insert into bon (kode_cust , nota , tgl , kode_brg , jml_jual , jml
 }
 
 if($last != 'no_img'){
-move_uploaded_file($tmp , 'ivory_src/'.$mod.'/'.$rnd_foto);
+	move_uploaded_file($tmp , 'assets/img/'.$mod.'/'.$rnd_foto);
 }
 
 $hasil = mysql_query($insert_query);

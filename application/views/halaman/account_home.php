@@ -56,7 +56,7 @@ $pending_iklan = mysql_num_rows(mysql_query("select * from produk where id_membe
           <div class="inner-box">
           <div class="row">
             <div class="col-md-5 col-xs-4 col-xxs-12">
-              <h3 class="no-padding text-center-480 useradmin"><a href=""><img class="userImg" src="<?php echo base_url('ivory_src/source/images/user.jpg'); ?>" alt="user"> <?php echo $nama." ".$last; ?> </a> </h3>
+              <h3 class="no-padding text-center-480 useradmin"><a href=""><img class="userImg" src="<?php echo base_url('assets/img/user.jpg'); ?>" alt="user"> <?php echo $nama." ".$last; ?> </a> </h3>
             </div>
             <div class="col-md-7 col-xs-8 col-xxs-12">
               <div class="header-data text-center-xs"> 

@@ -156,7 +156,7 @@ $this->load->view("index");
 }
 
 public function upload_file(){
-$file_path = "ivory_src/upload/";
+$file_path = "assets/img/upload/";
 $rnd = date('Ymd').str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789').'.jpg';     
 //$file_path = $file_path.$_FILES['uploaded_file']['name'];
 $file_path = $file_path.$rnd;
