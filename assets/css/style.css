@@ -234,6 +234,10 @@ hr.small {
     margin-top: 0 !important;
 }
 
+.space-bottom{
+  padding-bottom: 20px;
+}
+
 /* ================================================================== */
 /* CUSTOMIZE THE BOOTSTRAP MODAL + INPUT FORM ELEMENT + BUTTON + ALERT
 /* ================================================================== */
@@ -898,6 +902,16 @@ button.btn-search {
   width:60%;
 }
 
+/*========================== feature =========================*/
+.feature{
+  font-size:12px;
+}
+
+.feature-logo{
+  width:91px;
+  height:91px;
+}
+
 .cat-list {
   display: block;
   margin-bottom: 30px;
@@ -909,6 +923,8 @@ button.btn-search {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+
 
 .cat-list a {
   color: #03876D
