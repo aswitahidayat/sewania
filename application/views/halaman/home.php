@@ -3,7 +3,7 @@
     <h2 class="title-2">Temukan Kategori Sewa Yang Anda Cari </h2>
     <div class="row row-eq-height">
         <?php foreach($qbarang as $hasil){ ?>
-            <div class="col-xs-6 col-sm-3 cat-list title-2 center-text">
+            <div class="col-xs-6 col-sm-3 cat-list title-2 text-center">
                 <a data-toggle="modal" class="kat_rent" onclick="pop_up_kategori('#modal_body_awal','#header_awal_menu','#cont_rental_<?php echo $hasil->id_kategori; ?>','<?php echo $hasil->nama; ?>');" href="#contactAdvertiser">
                     <img src="<?php echo base_url('assets/img/icon/'.$hasil->icon); ?>" /><br/>
                     <?php echo $hasil->nama; ?>
@@ -21,21 +21,7 @@
                         </ul>
               
                     <?php } ?>
-                    <script>
-    		  
-                		$('.sub_div_kat').click(function(){
-                            var id=this.id.split('_');
-                			jQuery.ajax({
-                			     type:"POST",
-                				 data:"id="+id[2],
-                				 url:base+"session/s_kategori/",
-                				 success:function(data){
-                				 //alert(data);
-                				   window.location=base+"front/category/"+data;
-                				 }
-                			});
-                        });
-                    </script>
+                    <script src="<?php echo base_url('assets/js/category.js'); ?>"> </script>
                 </ul>
             </div>
         <?php } ?>

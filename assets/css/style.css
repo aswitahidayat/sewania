@@ -180,9 +180,7 @@ h6 {
   padding: 0 0 20px;
   text-transform: uppercase;
 }
-.center-text{
-  text-align:center;
-}
+
 /* Helper class */
 .uppercase {
   text-transform: uppercase;
@@ -849,6 +847,14 @@ button.btn-search {
   min-height: calc(100% - 220px);
   padding: 30px 15px 0 15px;
   width:100%;
+}
+
+.category{
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  min-height: calc(100% - 220px);
+  padding: 30px 15px 0 15px;
 }
 
 .inner-box {
@@ -1598,7 +1604,7 @@ button.btn-search {
 }
 
 .listing-filter {
-  border-bottom: solid 1px #ddd;
+  /*border-bottom: solid 1px #ddd;*/
   padding: 15px 0;
 }
 
